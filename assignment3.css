@@ -1,0 +1,37 @@
+#h1text{
+    color: blue;
+    background-color: aqua;
+}
+
+.h2text{
+    color: white;
+    background-color: black;
+}
+
+.h3text{
+    color: rgb(52, 0, 65);
+    background-color: lightsalmon;
+}
+
+p, ul{
+    color: rgb(0, 122, 41);
+    background-color: rgb(255, 223, 154);
+}
+
+.spantext{
+    color: black;
+    background-color: orange;
+}
+
+a:link{
+    color: red;
+}
+
+a:hover{
+    color: yellow;
+}
+
+a:visited{
+    color: green;
+}
+
