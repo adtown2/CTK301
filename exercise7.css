@@ -1,0 +1,115 @@
+body{
+    background-image: url(greenbg.png);
+
+}
+
+#wrapper{
+    width: 960px;
+    background-color: white;
+    border: 3px solid black;
+    margin: 1em auto;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+
+
+h1{
+    grid-column: span 5;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+
+    margin-top: 0;
+    background-color: rgb(58, 136, 161);
+    padding: 20px;
+
+    border-bottom: 3px solid black;
+}
+
+h2{
+    border-bottom: 3px solid black;
+}
+
+nav{
+    grid-column: span 5;
+}
+
+nav ul{
+    list-style-type: none;
+    margin-left: 20px;
+    padding: 0;
+}
+
+nav li{
+    border: 3px solid black;
+    width: 200px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    background-color: green;
+    display: inline-block;
+}
+
+nav li a{
+    color: white;
+    text-decoration: none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    display:block;
+    padding: 20px;
+}
+
+nav li a:hover{
+    background-color: darkgreen;
+}
+
+main{
+    grid-column: span 3;
+    padding: 0 15px 15px 15px;
+}
+
+img{
+    padding: 15px;
+    margin-right: 10px;
+
+    width: 250px;
+    float: right;
+}
+
+p a{
+    color: green;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+p a:hover{
+    color:red;
+    text-decoration: underline;
+}
+
+footer{
+    grid-column: span 5;
+
+    border-top: 3px solid black;
+    color: black;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(58, 136, 161);
+
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+aside{
+    grid-column: span 2;
+    border: 3px solid rgb(58, 136, 161);
+    background-color: rgb(58, 136, 161);
+    margin: 20px;
+    padding: 0px 20px 20px 20px;
+
+    color: white;
+}
+
+.specialtext{
+    font-style: italic;
+}
