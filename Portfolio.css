@@ -51,7 +51,6 @@ nav li a:hover{
 
 h1{
   text-align: center;
-  font-family: 'Sigmar', cursive;
   font-size: 36px;
 }
 
@@ -100,27 +99,31 @@ h2{
   text-decoration: underline;
 }
 
-#myCarousel{
+.alpharad{
+  grid-template-columns: repeat(12, 1fr);
+  grid-column-gap: 24px;
+  grid-column: span 12;
+}
+
+.alpharad #myCarousel{
   grid-template-columns: repeat(12, 1fr);
   grid-column: span 6;
   margin-left: 65px;
   width: 610px;
 }
 
-#myCarousel img{
+.alpharad #myCarousel img{
   border: 2px solid black;
   width: 100%;
 }
 
-#myCarousel .f-carousel__slide {
+.alpharad #myCarousel .f-carousel__slide {
   text-align: center;
 }
 
-.alpharad{
+.alpharad .alphabanner{
+  grid-template-columns: repeat(12, 1fr);
   grid-column: span 6;
-  border-right: 2px solid black;
-  border-top: 2px solid black;
-  border-bottom: 2px solid black;
+  margin-left: 700px;
   width: 610px;
-  margin-left: 675px;
 }
