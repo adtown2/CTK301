@@ -63,12 +63,13 @@ h2{
   margin-left: 75px;
 }
 
-.h2clips{
-  padding-top: 25px;
+.h2vids{
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-ul, img{
-  width: 85px;
+.h2clips{
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top: 25px;
 }
 
 .circle{
@@ -91,24 +92,60 @@ ul, img{
 
 .introduction{
   border: 2px solid black;
-  margin-left: 410px;
-  margin-right: 410px;
+  margin-left: 520px;
+  margin-right: 520px;
   background-color: #292C31;
   
   grid-column-gap: 24px;
 }
 
 .introduction p{
+  font-family: Arial, Helvetica, sans-serif;
   text-align: center;
   font-size: 20px;
   color: white;
 }
 
+.introduction a{
+  color:#2696DB;
+  text-decoration: none;
+}
+
+.introduction a:hover{
+  color:#2696DB;
+  text-decoration: underline;
+}
+
+.introduction2{
+  border: 2px solid black;
+  margin-left: 520px;
+  margin-right: 520px;
+  background-color: #292C31;
+  
+  grid-column-gap: 24px;
+}
+
+.introduction2 p{
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  font-size: 20px;
+  color: white;
+}
+
+.introduction2 a{
+  color:#2696DB;
+  text-decoration: none;
+}
+
+.introduction2 a:hover{
+  color:#2696DB;
+  text-decoration: underline;
+}
+
 #myCarousel{
-  display: inline-block;
   padding-top: 25px;
-  margin-left: 432px;
-  width: 450px;
+  margin-left: 580px;
+  width: 500px;
 }
 
 #myCarousel img{
@@ -125,6 +162,7 @@ ul, img{
   background-color: #171719;
   grid-column: span 1;
 }
+
 .heromistake img{
   margin-left: 70px;
   width: 300px;
@@ -134,7 +172,9 @@ ul, img{
 .heromistake p{
   color: white;
   font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
   text-align: center;
+  margin-right: 100px;
 }
 
 .enhancerng{
@@ -151,7 +191,9 @@ ul, img{
 .enhancerng p{
   color: white;
   font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
   text-align: center;
+  margin-right: 110px;
 }
 
 .doublekkr{
@@ -168,7 +210,9 @@ ul, img{
 .doublekkr p{
   color: white;
   font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
   text-align: center;
+  margin-right: 115px;
 }
 
 .clips{
@@ -190,7 +234,9 @@ ul, img{
 .streamers p{
   color: white;
   font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
   text-align: center;
+  margin-right: 120px;
 }
 
 .lightfox{
@@ -207,7 +253,9 @@ ul, img{
 .lightfox p{
   color: white;
   font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
   text-align: center;
+  margin-right: 117px;
 }
 
 .lowiq{
@@ -224,6 +272,23 @@ ul, img{
 .lowiq p{
   color: white;
   font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
   text-align: center;
+  margin-right: 117px;
 }
 
+.icons{
+  text-align: center;
+  padding-top: 20px;
+  background-color: #171719;
+  color: white;
+  font-size: 60px;
+}
+
+.icons a{
+  color: white;
+}
+
+.icons a:hover{
+  color:white;
+}
