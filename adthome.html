@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>AmariDT - Home</title>
+
+	<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+  	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css"/>
+
+  	<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.umd.js"></script>
+	<link
+  	rel="stylesheet"
+  	href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/carousel/carousel.css" />
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Creepster&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+
+	<link href="Portfolio.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+	<div class="wrapper">
+
+		<header>
+			<h1>AmariDT's Smash Ultimate Content</h1>
+
+			<nav>
+				<ul>
+					<img class="circle" src="amaridtPFP.png" alt="AmariDT Profile Picture">
+					<li><a href="adthome.html"> Home <i class="bi bi-house-door-fill"></i></a></li>
+					<li><a href="adtvideos.html"> Videos <i class="bi bi-youtube"></i></a></li>
+					<li><a href="adtabout.html"> About <i class="bi bi-person-fill"></i></a></li>
+				</ul>
+			</nav>
+		</header>
+	</div>
+
+	<div class="alpharad">
+
+	<main class="introduction">
+		<section>
+			<p>I create content from the game Super Smash Bros. Ultimate.
+			</p>
+
+			<p>You may recognize me from these videos from <a href="https://www.youtube.com/channel/UCBODyKF0JMbUd6D9Bklyzbw" target="_blank">Alpharad</a>.
+			</p>
+		</section>
+	</main>
+
+			<div class="f-carousel" id="myCarousel">
+			  <div class="f-carousel__slide"><a target="_blank" href="https://youtu.be/gd3cFxkt9TU?t=801" data-fancybox="gallery" data-caption="So I Created an Invincible Kirby Amiibo...">
+				<img src="kirbyamiibo.jpg"></a>
+		  		</div>
+			  <div class="f-carousel__slide"><a target="_blank" href="https://youtu.be/B6X1a9Yp04Y?t=528" data-fancybox="gallery" data-caption="Hard DK & Soft Diddy">
+				<img src="dkamiibo.jpg"></a>
+			  </div>
+			  <div class="f-carousel__slide"><a target="_blank" href="https://youtu.be/JyCqp40yrOk?t=186" data-fancybox="gallery" data-caption="The Ness Amiibo Drinking Game">
+				<img src="nessamiibo.jpg"></a>
+			  </div>
+			  <div class="f-carousel__slide"><a target="_blank" href="https://youtu.be/WgcS0nHQEOI?t=54" data-fancybox="gallery" data-caption="The Ultimate Battle">
+				<img src="customstage.jpg"></a>
+			  </div>
+			</div>
+		  </div>
+			<script>
+			  Fancybox.bind("[data-fancybox]", {
+		});
+		
+		  const container = document.getElementById("myCarousel");
+		  const options = { infinite: false };
+		
+		  new Carousel(container, options);
+		</script>
+	</div>
+
+</body>
+</html>
